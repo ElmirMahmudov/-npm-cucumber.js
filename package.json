@@ -1,0 +1,14 @@
+{
+  "name": "cucumber-npm-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cucumber": "./node_modules/.bin/cucumber-js ./features -r ./support  "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.0.0"
+  }
+}
