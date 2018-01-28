@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "cucumber": "./node_modules/.bin/cucumber-js ./features -r ./support  "
+    "cucumber": "./node_modules/.bin/cucumber-js ./features -r ./support --reporters cli,junit --reporter-junit-export cucumber.xml "
   },
   "author": "",
   "license": "ISC",
